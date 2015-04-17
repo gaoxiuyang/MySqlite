@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    <Button  
+        android:id="@+id/insert"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="插入"  
+    />  
+    <Button  
+        android:id="@+id/update"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="更新"  
+    />  
+    <Button  
+        android:id="@+id/select"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="查询"  
+    />  
+    <Button  
+        android:id="@+id/delete"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="删除"  
+    />  
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击后观察LogCat打印的结果"
+        />
+</LinearLayout>  
